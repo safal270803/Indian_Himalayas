@@ -1,0 +1,19 @@
+# macOS junk
+.DS_Store
+data/.DS_Store
+data/raw/.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.env
+.venv
+
+# Intermediate large data dumps
+data/processed/
+*.gpkg-shm
+*.gpkg-wal
