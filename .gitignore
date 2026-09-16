@@ -12,6 +12,7 @@ __pycache__/
 *.py[cod]
 .env
 .venv
+.yml
 
 # Intermediate large data dumps
 data/processed/
