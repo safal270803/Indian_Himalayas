@@ -1,11 +1,9 @@
 # macOS junk
 .DS_Store
-data/.DS_Store
-data/raw/.DS_Store
+*.DS_Store
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/
 
 # Python cache & virtual environments
 __pycache__/
@@ -14,27 +12,11 @@ __pycache__/
 .venv
 .yml
 
-# Intermediate large data dumps
-data/processed/
-*.gpkg-shm
-*.gpkg-wal
-# Data outputs & large tables
+# Data outputs & large spatial tables
 outputs/
-outputs/gi_star_annual/
 *.csv
 *.gal
 *.parquet
-
-# Python & Jupyter artifacts
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-.DS_Store
-# macOS junk
-.DS_Store
-data/.DS_Store
-data/raw/.DS_Store
-*.csv
-*.gal
-outputs/
-
+*.gpkg-shm
+*.gpkg-wal
+data/processed/
