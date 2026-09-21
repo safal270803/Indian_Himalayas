@@ -2,6 +2,38 @@
 .DS_Store
 data/.DS_Store
 data/raw/.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.env
+.venv
+.yml
+
+# Intermediate large data dumps
+data/processed/
+*.gpkg-shm
+*.gpkg-wal
+# Data outputs & large tables
+outputs/
+outputs/gi_star_annual/
+*.csv
+*.gal
+*.parquet
+
+# Python & Jupyter artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+# macOS junk
+.DS_Store
+data/.DS_Store
+data/raw/.DS_Store
 *.csv
 *.gal
 outputs/
@@ -21,3 +53,72 @@ __pycache__/
 data/processed/
 *.gpkg-shm
 *.gpkg-wal
+# macOS junk
+.DS_Store
+data/.DS_Store
+data/raw/.DS_Store
+*.csv
+*.gal
+outputs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.env
+.venv
+.yml
+
+# Intermediate large data dumps
+data/processed/
+*.gpkg-shm
+*.gpkg-wal 
+# macOS junk
+.DS_Store
+data/.DS_Store
+data/raw/.DS_Store
+*.csv
+*.gal
+outputs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.env
+.venv
+.yml
+
+# Intermediate large data dumps
+data/processed/
+*.gpkg-shm
+*.gpkg-wal
+# macOS junk
+.DS_Store
+data/.DS_Store
+data/raw/.DS_Store
+*.csv
+*.gal
+outputs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.env
+.venv
+.yml
+
+# Intermediate large data dumps
+data/processed/
+*.gpkg-shm
+*.gpkg-wal EOF
