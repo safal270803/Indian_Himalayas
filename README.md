@@ -140,7 +140,7 @@ Per-cell metrics are computed with vectorised NumPy: total hot years, hot-year f
 
 ---
 
-## Outputs for QGIS
+## Outputs
 
 `EHA_Classification.ipynb` exports a ready-to-style layer:
 
