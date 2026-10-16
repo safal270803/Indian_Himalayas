@@ -181,7 +181,7 @@ Large intermediate files (grids, CSVs, cached weights) may be excluded by `.giti
 
 ---
 
-## Limitations and next steps**
+## Limitations and next steps
 - **Forest loss ≠ deforestation.** Hansen Global Forest Change captures tree-cover loss, including disturbances caused by fire, harvesting and landslides; not all detected loss necessarily represents permanent deforestation.
 - **Single spatial scale.** Results are based on the 2.5 km grid and Queen contiguity. Sensitivity analyses using 5 km / 10 km grids, distance-based spatial weights, alternative forest-cover thresholds and end years are still pending.
 - **Temporal autocorrelation.** Ordinary Mann-Kendall is applied to all cells without correcting for temporal autocorrelation, which may affect trend significance.
